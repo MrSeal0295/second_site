@@ -1,0 +1,119 @@
+:root { 
+    --main-color: #333;
+}
+
+.Bigtext
+{
+    text-align: center;
+    color: #fefefe;
+}
+
+
+.menu
+{
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration:dashed;
+    }
+    
+    li a:hover {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+
+.bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+
+.LoginMenu
+{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 20px;
+    border-radius: 32px;
+    border-width: 50px;
+    width: 300px;
+    height: 170px;
+    margin: 0 auto;
+
+    font-family: 'Times New Roman', 'sans-serif';
+
+
+    button
+    {
+        text-align: center;
+        color: black;
+        background-color: white;
+        width: 100px;
+        margin: 5 auto;
+        align-items: center;
+        border-radius: 100px;
+    }
+
+    button:hover
+    {
+        text-align: center;
+        color: white;
+    }
+
+    .action_btn
+    {
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .action_btn button a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    .action_btn a:hover {
+        text-decoration: underline;
+        color: #333;
+    }
+    
+    
+    label
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 125px;
+    }
+    
+    input
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 125px;
+        margin-bottom: 10px;
+        border-radius: 100px;
+    }
+}
